@@ -4,7 +4,8 @@ data = []
 date = []
 symbol = []
 i=1
-with open("./data/stock_returns_base150.csv", 'rb') as csvfile:
+#Cannot disclose confidential data. will prepare a data soon from public source
+with open("data.csv", 'rb') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',')
     for row in spamreader:
         if i==1: 
